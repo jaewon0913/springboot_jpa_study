@@ -1,7 +1,7 @@
 ### SpringBoot + JPA Study
 <hr/>
 
-> ####김영한님의 SpringBoot + JPA 강의 따라하기
+> #### 김영한님의 SpringBoot + JPA 강의 따라하기
 ##### 개발환경
 * IDE : IntelliJ IDEA  
 * OS : MAC OS  
