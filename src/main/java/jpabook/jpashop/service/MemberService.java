@@ -52,4 +52,15 @@ public class MemberService {
             throw new IllegalStateException("이미 존재하는 회원입니다.");
         }
     }
+
+    /**
+     * 회원 수정
+     * @param id
+     * @param name
+     */
+    @Transactional
+    public void update(Long id, String name) {
+        Member member = memberRepository.findOne(id);
+        member.setName(name );
+    }
 }
